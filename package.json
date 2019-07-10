@@ -1,0 +1,26 @@
+{
+  "name": "hello-webpack-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huoran323/hello-webpack-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huoran323/hello-webpack-4/issues"
+  },
+  "homepage": "https://github.com/huoran323/hello-webpack-4#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
