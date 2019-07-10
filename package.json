@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode=development",
+    "dev": "npx webpack",
     "build": "webpack --mode=production"
   },
   "repository": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/huoran323/hello-webpack-4#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   }
