@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-arrow-functions", //箭头函数插件
+    "@babel/plugin-transform-classes", //类转换的插件
+    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }] //es6装饰器插件
+  ]
+}

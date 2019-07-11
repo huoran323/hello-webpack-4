@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const greet = () => {\n  console.log(\"hello\");\n};\n\ngreet();\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nconst greet = function () {\n  console.log(\"hello\");\n};\n\ngreet();\n\nlet Test =\n/*#__PURE__*/\nfunction () {\n  function Test(name) {\n    _classCallCheck(this, Test);\n\n    this.name = name;\n  }\n\n  _createClass(Test, [{\n    key: \"logger\",\n    value: function logger() {\n      console.log(\"Hello\", this.name);\n    }\n  }]);\n\n  return Test;\n}();\n\nlet MyClass = function MyClass() {\n  _classCallCheck(this, MyClass);\n};\n\nfunction annotation(target) {\n  target.annotated = true;\n}\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

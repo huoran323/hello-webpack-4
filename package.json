@@ -21,6 +21,9 @@
   "homepage": "https://github.com/huoran323/hello-webpack-4#readme",
   "devDependencies": {
     "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-classes": "^7.4.4",
     "babel-loader": "^8.0.6",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
